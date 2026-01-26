@@ -52,11 +52,11 @@ const Footer: React.FC = () => {
         {/* Logo + Description */}
         <Box className="space-y-4">
           <Typography variant="h6" className="text-white font-bold text-xl">
-            MyApp
+            ECom Express
           </Typography>
           <Typography variant="body2" className="text-gray-400">
-            Building amazing web experiences with modern UI and seamless UX.
-            Join our journey.
+            The best e-commerce website in the world serving across different
+            ranges like lifestyle, fashion, grocery and much more.
           </Typography>
           <Box className="flex space-x-3 mt-2">
             {socialLinks.map((social, idx) => (

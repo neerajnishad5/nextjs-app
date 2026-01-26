@@ -5,7 +5,7 @@ import { Button } from "@mui/material";
 
 export default function NotFound() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-950 text-white px-4 text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-black text-white px-4 text-center">
       {/* 404 Code with gradient glow */}
       <h1 className="text-7xl md:text-9xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 drop-shadow-lg animate-pulse">
         404
@@ -29,15 +29,6 @@ export default function NotFound() {
           Go to Home
         </Button>
       </Link>
-
-      {/* Illustration */}
-      <div className="mt-12">
-        <img
-          src="/assets/404-illustration.svg"
-          alt="Not found illustration"
-          className="w-64 md:w-96 mx-auto animate-bounce-slow"
-        />
-      </div>
     </div>
   );
 }
